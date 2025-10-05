@@ -75,8 +75,13 @@ Berikut beberapa contoh peran kriptografi:
 
 ## 6. Hasil dan Pembahasan
  
-( Hasil eksekusi program Caesar Cipher:
-![Hasil Eksekusi]berbentuk (screenshots.png)
+(Hasil eksekusi program Caesar Cipher:
+
+![Hasil Eksekusi](screenshots/output.png)
+![Hasil Input](screenshots/input.png)
+![Hasil Output](screenshots/output.png)
+)
+
 
 ## 7. Jawaban Pertanyaan
 Soal Quiz:
