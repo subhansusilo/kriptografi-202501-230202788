@@ -63,10 +63,6 @@ def caesar_decrypt(text, shift):
 if __name__ == "__main__":
     print("=== Program Caesar Cipher ===")
 
-    # Input dimasukkan melalui terminal saat program dijalankan
-    plaintext = input("Masukkan teks yang ingin dienkripsi: ")
-    shift = int(input("Masukkan jumlah pergeseran: "))
-
     encrypted = caesar_encrypt(plaintext, shift)
     decrypted = caesar_decrypt(encrypted, shift)
 
