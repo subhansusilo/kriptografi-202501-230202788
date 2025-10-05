@@ -102,3 +102,18 @@ Dari percobaan menggunakan teknik Caesar Cipher, dapat disimpulkan bahwa metode 
 
 Meskipun mudah dipahami dan diterapkan, Caesar Cipher memiliki tingkat keamanan yang rendah, karena pola pergeserannya mudah ditebak dan dapat dipecahkan dengan percobaan sederhana (brute force). Namun demikian, percobaan ini memberikan pemahaman dasar tentang prinsip kerja enkripsi dan dekripsi, yang menjadi fondasi bagi pengembangan kriptografi modern yang lebih kompleks dan aman.
 
+## 9. Daftar Pustaka
+ 
+- Kessler, G. C. (2019). An Overview of Cryptography. 
+- Stallings, W. (2017). Cryptography and Network Security: Principles and Practice (7th ed.). Pearson Education.
+
+## 10. Commit Log
+
+commit abc12345
+Author: Subhan Susilo <subhansusilo4@gmail.com>
+Date:   2025-10-10
+
+    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+```
+
+
