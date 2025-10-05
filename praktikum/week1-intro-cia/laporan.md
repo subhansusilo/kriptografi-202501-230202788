@@ -62,7 +62,6 @@ def caesar_decrypt(text, shift):
     print("=== Program Caesar Cipher ===")
     encrypted = caesar_encrypt(plaintext, shift)
     decrypted = caesar_decrypt(encrypted, shift)
-
     print("\n=== Hasil Output ===")
     print("Teks asli     :", plaintext)
     print("Pergeseran    :", shift)
