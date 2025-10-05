@@ -47,21 +47,25 @@ Berikut beberapa contoh peran kriptografi:
 
 # Caesar Cipher - Kriptografi Klasik
 
-def caesar_encrypt(text, shift):
+    def caesar_encrypt(text, shift):
     result = ""
     for char in text:
+    
         if char.isalpha():
             base = ord('A') if char.isupper() else ord('a')
             result += chr((ord(char) - base + shift) % 26 + base)
         else:
             result += char
     return result
-def caesar_decrypt(text, shift):
+    
+    def caesar_decrypt(text, shift):
     return caesar_encrypt(text, -shift)
+    
     if __name__ == "__main__":
     print("=== Program Caesar Cipher ===")
     encrypted = caesar_encrypt(plaintext, shift)
     decrypted = caesar_decrypt(encrypted, shift)
+    
     print("\n=== Hasil Output ===")
     print("Teks asli     :", plaintext)
     print("Pergeseran    :", shift)
