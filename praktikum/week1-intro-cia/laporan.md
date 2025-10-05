@@ -56,13 +56,10 @@ def caesar_encrypt(text, shift):
         else:
             result += char
     return result
-
 def caesar_decrypt(text, shift):
     return caesar_encrypt(text, -shift)
-    
-if __name__ == "__main__":
+    if __name__ == "__main__":
     print("=== Program Caesar Cipher ===")
-
     encrypted = caesar_encrypt(plaintext, shift)
     decrypted = caesar_decrypt(encrypted, shift)
 
