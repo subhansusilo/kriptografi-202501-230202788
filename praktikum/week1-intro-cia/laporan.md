@@ -9,7 +9,7 @@ Kelas: 5IKRA
     1. Menjelaskan sejarah dan evolusi kriptografi dari masa klasik hingga modern.
     2. Menyebutkan prinsip Confidentiality, Integrity, Availability (CIA) dengan benar.
     3. Menyimpulkan peran kriptografi dalam sistem keamanan informasi modern.
-    4. Menyiapkan repositori GitHub sebagai media kerja praktikum.
+    4. Menyiapkan repositori GitHub sebagai media kerja praktikum. 
 
 ## 2. Dasar Teori
 Sejarah kriptografi adalah ilmu menyandikan informasi dari zaman kuno Yunani dan Romawi hingga era digital modern, sementara Triad CIA (Kerahasiaan, Integritas, Ketersediaan) adalah tiga prinsip fundamental keamanan informasi yang dirumuskan pada tahun 1970-an dan 1980-an untuk melindungi data dari akses tidak sah, modifikasi, dan hilangnya akses yang tidak diinginkan
