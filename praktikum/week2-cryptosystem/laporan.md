@@ -39,10 +39,10 @@ Kelas: [5IKRA]
 ---
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
+- Python 3.x  
 - Visual Studio Code
 - Git dan akun GitHub  
-- Draw Oi)
+- Draw Oi
 
 ---
 
