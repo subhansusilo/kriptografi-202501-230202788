@@ -99,21 +99,21 @@ Hasil eksekusi program Caesar Cipher:
 
  2. A (Sistem Simetris)
  
-Kelebihan
+  Kelebihan
 - Proses enkripsi dan dekripsi lebih cepat dan efisien, terutama untuk data dalam jumlah besar.
 - Algoritmanya lebih sederhana dan membutuhkan sumber daya komputasi yang lebih sedikit.
 
-Kelemahan
+  Kelemahan
 - Distribusi kunci sulit karena harus dikirim secara rahasia ke penerima.
 - Jika kunci diketahui pihak lain, seluruh komunikasi menjadi tidak aman.
 
     B. (Sistem Asimetris)
 
-Kelebihan
+  Kelebihan
 - Distribusi kunci lebih aman karena menggunakan dua kunci (publik dan privat).
 - Mendukung tanda tangan digital dan autentikasi.
 
-Kelemahan
+  Kelemahan
 - Proses lebih lambat karena perhitungan matematikanya kompleks.
 - Membutuhkan sumber daya komputasi lebih besar.
 
