@@ -72,9 +72,7 @@ def encrypt(text, key):
 Hasil eksekusi program simple_crypto:
 
 ![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
+
 
 ---
 
