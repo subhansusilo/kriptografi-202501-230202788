@@ -36,6 +36,35 @@ Kelas: [5IKRA]
 - Dekripsi (Decryption) adalah Proses mengembalikan ciphertext ke bentuk plaintext menggunakan algoritma dan kunci tertentu.
 - Kunci (Key) menjadi faktor utama keamanan. Jika kunci diketahui pihak lain, maka sistem tidak lagi aman.
 
+ 4.
+A. Kriptografi Simetris
+
+   Pengertian:
+   Kriptografi simetris menggunakan satu kunci yang sama untuk proses enkripsi (mengubah plaintext menjadi ciphertext) dan dekripsi (mengubah ciphertext kembali ke plaintext).Artinya, pengirim dan penerima harus memiliki kunci yang sama dan menjaganya tetap rahasia.
+
+   Contoh algoritma:
+
+- AES (Advanced Encryption Standard) → digunakan secara luas untuk enkripsi file, jaringan Wi-Fi (WPA2), dan data digital.
+
+- DES (Data Encryption Standard) → algoritma lama, kini jarang digunakan karena ukuran kuncinya kecil (56-bit) dan mudah diserang brute force
+   
+B. Kriptografi Asimetris
+
+Pengertian:
+Kriptografi asimetris menggunakan dua kunci yang berbeda, yaitu:
+
+- Kunci publik (public key) → digunakan untuk enkripsi
+
+- Kunci privat (private key) → digunakan untuk dekripsi
+
+- Kunci publik dapat disebarluaskan secara bebas, sedangkan kunci privat harus dijaga kerahasiaannya.
+
+Contoh algoritma:
+
+- RSA (Rivest–Shamir–Adleman) → digunakan untuk keamanan pada HTTPS, email, dan tanda tangan digital.
+
+- ECC (Elliptic Curve Cryptography) → menawarkan keamanan tinggi dengan ukuran kunci lebih kecil dibanding RSA.
+
 ---
 
 ## 3. Alat dan Bahan
@@ -57,19 +86,19 @@ Kelas: [5IKRA]
 ## 5. Source Code
 # file: praktikum/week2-cryptosystem/src/simple_crypto.py
 
-def encrypt(plaintext, key):
-    result = ""
-    for char in plaintext:
-        if char.isalpha():
+      def encrypt(plaintext, key):
+          result = ""
+          for char in plaintext:
+              if char.isalpha():
             shift = 65 if char.isupper() else 97
             result += chr((ord(char) - shift + key) % 26 + shift)
         else:
             result += char
-    return result
+       return result
 
-def decrypt(ciphertext, key):
-    result = ""
-    for char in ciphertext:
+      def decrypt(ciphertext, key):
+          result = ""
+          for char in ciphertext:
         if char.isalpha():
             shift = 65 if char.isupper() else 97
             result += chr((ord(char) - shift - key) % 26 + shift)
@@ -77,9 +106,9 @@ def decrypt(ciphertext, key):
             result += char
     return result
 
-if __name__ == "__main__":
-    message = "subhan"
-    key = 5
+      if __name__ == "__main__":
+          message = "subhan"
+          key = 5
 
     enc = encrypt(message, key)
     dec = decrypt(enc, key)
