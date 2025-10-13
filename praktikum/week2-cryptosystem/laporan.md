@@ -42,7 +42,7 @@ Kelas: [5IKRA]
 - Python 3.x  
 - Visual Studio Code
 - Git dan akun GitHub  
-- Draw Oi
+- Excalidraw
 
 ---
 
@@ -68,12 +68,8 @@ def encrypt(text, key):
 ---
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
-
-Hasil eksekusi program Caesar Cipher:
+ 
+Hasil eksekusi program simple_crypto:
 
 ![Hasil Eksekusi](screenshots/output.png)
 ![Hasil Input](screenshots/input.png)
