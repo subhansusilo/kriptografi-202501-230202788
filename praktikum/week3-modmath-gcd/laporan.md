@@ -146,5 +146,5 @@ commit week03
 Author: Subhan Susilo <subhansusilo4@gmail.com>  
 Date:   2025-10-20
 
-    week3-Modular Math: implementasi modular arithmetic & GCD dan laporan )
+    week3-Modular Math-Gcd: implementasi modular arithmetic & GCD dan laporan )
 ```
