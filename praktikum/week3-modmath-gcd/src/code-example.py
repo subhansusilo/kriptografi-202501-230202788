@@ -5,4 +5,5 @@ def mod_exp(base, exp, n): return pow(base, exp, n)  # eksponensiasi modular
 
 print("7 + 5 mod 12 =", mod_add(7, 5, 12))
 print("7 * 5 mod 12 =", mod_mul(7, 5, 12))
-print("7^128 mod 13 =", mod_exp(7, 128, 13))
+print("7^128 mod 13 =", mod_exp(7, 128, 13)) 
+
