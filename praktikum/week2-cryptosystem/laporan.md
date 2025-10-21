@@ -7,8 +7,8 @@ Kelas: [5IKRA]
 
 ## 1. Tujuan
 
-1. Mengidentifikasi komponen dasar kriptosistem (plaintext, ciphertext, kunci, algoritma). 
-2  Menggambarkan proses enkripsi dan dekripsi sederhana.
+1. Mengidentifikasi komponen dasar kriptosistem (plaintext, ciphertext, kunci, algoritma).  
+2. Menggambarkan proses enkripsi dan dekripsi sederhana.
 3. Mengklasifikasikan jenis kriptosistem (simetris dan asimetris).
 
 ---
