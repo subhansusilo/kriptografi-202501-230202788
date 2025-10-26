@@ -54,6 +54,11 @@ Langkah 1 — Perhitungan Entropi
 
 Langkah 2 — Menghitung Unicity Distance
 
+    import math
+
+    def entropy(keyspace_size):
+        return math.log2(keyspace_size)
+
     def unicity_distance(HK, R=0.75, A=26):
         return HK / (R * math.log2(A))
 
