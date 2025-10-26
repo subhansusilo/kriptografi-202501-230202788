@@ -117,12 +117,10 @@ Dari hasil perhitungan dan analisis, dapat disimpulkan bahwa entropi dan unicity
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit 057d5b8d332754c235f1cd36a192fc704b4ab2e9
+Author: Subhan Susilo <SubhanSusilo4@gmail.com>
+Date:   2025-10-26
 
-    week4-entropy-unicity: implementasi Caesar Cipher dan laporan )
+    week4-entropy-unicity: implementasi entropy_unicity dan laporan )
 ```
