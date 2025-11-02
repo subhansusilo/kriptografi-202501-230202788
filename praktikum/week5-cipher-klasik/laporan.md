@@ -186,7 +186,7 @@ Secara umum, cipher substitusi lebih rentan terhadap serangan berbasis pola huru
 
 ## 10. Commit Log
 ```
-commit abc12345
+commit c3ca3e8edb9dd62b9f91bb7c98db92f8c41f8ba7
 Author: Subhan Susilo <subhansusilo@gmail.com>
 Date:   2025-11-01
 
