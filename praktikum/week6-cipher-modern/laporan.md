@@ -220,7 +220,7 @@ Contoh:
 ## 10. Commit Log
 
 ```
-commit abc12345
+commit 838e8ea814ed06b910d8a8faa63057f3973d4876
 Author: Subhan Susilo <subhansusilo4@gmail.com>
 Date:   2025-11-07
 
