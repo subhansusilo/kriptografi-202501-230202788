@@ -136,7 +136,7 @@ Untuk mencegah MITM, protokol ini perlu dikombinasikan dengan mekanisme autentik
 ## 10. Commit Log
 
 ```
-commit abc12345
+commit cf629baa7d9954b73fdeaf6c7c7bc1a5017a6ad0
 Author: Subhan Susilo <subhansusilo01@gmail.com>
 Date:   2025-11-25
 
