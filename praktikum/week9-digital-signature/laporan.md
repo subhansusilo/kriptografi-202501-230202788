@@ -178,7 +178,7 @@ Dalam sistem modern, kepercayaan ini diperkuat oleh Certificate Authority (CA), 
 
 ## 10. Commit Log
 ```
-commit abc12345
+commit 3f147a5ab8c961024e1014a6de9b9c8aefeed3d2
 Author: Subhan Susilo <subhansusilo04@gmail.coml>
 Date:   2025-12-08
 
