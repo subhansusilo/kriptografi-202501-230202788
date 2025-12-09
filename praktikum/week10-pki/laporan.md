@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 10  
+Topik: [Public Key Infrastructure (PKI & Certificate Authority)]  
+Nama: [Subhan Susilo]  
+NIM: [230202788]  
+Kelas: [5IKRA]  
 
 ---
 
