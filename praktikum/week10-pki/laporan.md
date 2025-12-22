@@ -112,7 +112,7 @@ Contoh:
 ## 10. Commit Log
 
 ```
-commit abc12345
+commit  dd4f7a7c544dc8b7fded69c72af29d16fa328fe5
 Author: SubhanSusilo <subhansusilo4@gmail.com>
 Date:   2025-12-20
 
