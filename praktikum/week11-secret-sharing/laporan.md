@@ -101,7 +101,7 @@ Shamir’s Secret Sharing (SSS) adalah cara membagi kunci/rahasia menjadi bebera
 ## 10. Commit Log
 
 ```
-commit abc12345
+commit 26247326c5992285629b63957a98eafa15da6e31
 Author: Subhan Susilo <email>
 Date:   2026-01-17
 
