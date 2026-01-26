@@ -4,7 +4,7 @@ Topik: [TinyChain – Proof of Work (PoW)]
 Nama: [Subhan Susilo]  
 NIM: [230202788]  
 Kelas: [5IKRA]  
-
+ 
 ---
 
 ## 1. Tujuan
