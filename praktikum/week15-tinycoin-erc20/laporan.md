@@ -45,10 +45,11 @@ Dari perspektif alternatif, TinyCoin bisa dipandang bukan sekadar token digital,
 ---
 
 ## 7. Jawaban Pertanyaan
+- ERC-20 merupakan standar token yang berfungsi sebagai fondasi utama dalam ekosistem blockchain Ethereum karena menyediakan aturan baku dalam pembuatan dan pengelolaan token digital. Dengan adanya standar ini, setiap token ERC-20 dapat dengan mudah digunakan dan dikenali oleh berbagai wallet, exchange, serta aplikasi terdesentralisasi (dApp) tanpa perlu penyesuaian khusus. Hal ini menjadikan ERC-20 sangat penting dalam mendukung interoperabilitas antar aplikasi blockchain dan mendorong pertumbuhan ekonomi Web3, seperti penggunaan token untuk pembayaran, governance, reward, hingga stablecoin.
 
-- Apa fungsi utama ERC20 dalam ekosistem blockchain?
-- Bagaimana mekanisme transfer token bekerja dalam kontrak ERC20?
-- Apa risiko utama dalam implementasi smart contract dan bagaimana cara mitigasinya?
+- Mekanisme transfer token pada kontrak ERC-20 bekerja melalui perubahan data (state) pada smart contract, bukan dengan memindahkan koin secara fisik seperti ETH. Ketika fungsi transfer dipanggil, kontrak akan memeriksa saldo pengirim, menguranginya sesuai jumlah token yang dikirim, lalu menambahkan saldo penerima dan mencatat peristiwa tersebut dalam event Transfer. Selain itu, ERC-20 juga menyediakan mekanisme approve dan transferFrom yang memungkinkan pihak ketiga, seperti decentralized exchange, untuk melakukan transfer token atas izin pemilik saldo. Seluruh proses ini berlangsung secara transparan, tercatat permanen di blockchain, dan tidak dapat diubah.
+
+- Dalam implementasinya, smart contract ERC-20 memiliki beberapa risiko utama, seperti kesalahan logika program, celah keamanan reentrancy, overflow atau underflow nilai, serta lemahnya kontrol akses terhadap fungsi penting. Risiko-risiko ini dapat menyebabkan kehilangan aset atau penyalahgunaan kontrak. Oleh karena itu, mitigasi sangat diperlukan, antara lain dengan melakukan pengujian menyeluruh, audit keamanan, penggunaan library tepercaya seperti OpenZeppelin, penerapan pola pemrograman yang aman, serta perencanaan mekanisme upgrade kontrak sebelum dideploy ke jaringan utama. Dengan langkah-langkah tersebut, keamanan dan keandalan smart contract dapat ditingkatkan secara signifikan.
 
 ---
 
